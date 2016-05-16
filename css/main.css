@@ -1,0 +1,119 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body {
+		font-family: 'Crimson-Text', sans-serif;
+}
+
+nav {
+	float: right;
+}
+
+nav li {
+		color: #369;
+}
+
+nav ul {
+		float: right;
+		margin: 12px 18px;
+		padding:10px 30px;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 15px;
+}
+
+nav a.signin {
+		color:#18AFE0;
+}
+header {
+	text-align: center; 
+	clear:right;
+	padding: 5px 0;
+}
+
+header h1 { 
+	font-family: 'Metrophobic', Arial, serif; 
+	font-weight: 400; 
+	font-size: 58px;
+
+}
+
+header h1 {
+			font-size: 58px;
+			line-height: 58px;
+			margin: 10px 0;
+			color: #232323;
+}
+/*
+* HR STYLES
+*/
+hr {
+	background: white url('../img/img-hr.png') no-repeat scroll 50% 50%;
+	clear: both;
+	border: 0;
+	height: 12px;
+}
+
+/*
+* PRODUCTS 
+*/
+.products {
+	text-align: center;
+	height: 275px;
+}
+.products a {
+	width: 22%;
+	margin: 5px 20px;
+	float: left;
+	border: 1px solid #E8E8E8;
+	border-radius: 5px 5px;
+	box-shadow: 0 0 5px #efefef;
+	padding: 20px 10px 10px;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+}
+
+h9 {
+	color: #232323;
+	font-size: 48px;
+	line-height: 48px;
+	letter-spacing: -1px;
+	text-align: center;
+}	
+/*
+*CUSTOMERS
+*/
+.customers {
+		margin-bottom: 50px;
+		position: relative;
+}
+.customers h2 {
+		color: #232323;
+		font-size: 48px;
+		letter-spacing: -1px;
+		text-align: center;
+}
+
+
+/*
+* MEET SOME CUSTOMERS
+*/
+.meet {
+	position: absolute;
+	left: -140px;
+	top: 70px;
+}	
+
+.column,
+.column-end {
+	float: left;
+	color: #222;
+	font-size: 18px;
+	line-height: 27px;
+	width: 43%;
+	margin: 0 3%;
+}
